@@ -31,11 +31,11 @@ jobs:
       - name: Sync Capacitor Android
         run: npx cap sync android
 
-      - name: Set up Java 17 (Zulu)
+      - name: Set up Java 21 (Zulu)
         uses: actions/setup-java@v4
         with:
           distribution: "zulu"
-          java-version: "17"
+          java-version: "21"
           cache: "gradle"
 
       - name: Setup Gradle Permissions
