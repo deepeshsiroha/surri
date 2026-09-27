@@ -1,0 +1,8 @@
+{
+  "appId": "com.surri.cardgame",
+  "appName": "Surri",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}
